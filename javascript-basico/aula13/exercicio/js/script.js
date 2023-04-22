@@ -1,4 +1,4 @@
-const numeroUsuario = parseFloat(prompt("Digite um número"));
+const numeroUsuario = Number(prompt("Digite um número"));
 
 const numeroTitulo = document.getElementById("numero-titulo");
 const raizQuadrada = document.getElementById("raiz-quadrada");
